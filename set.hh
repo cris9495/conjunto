@@ -7,4 +7,5 @@ private:
 
 public:
   Set() : storage() {}
+  bool member(T elem) { return storage.search(elem); }
 };
