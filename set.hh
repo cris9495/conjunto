@@ -1,4 +1,10 @@
 #include <iostream>
 #include "bst.hh"
 
-template <typename T> class Set {};
+template <typename T> class Set {
+private:
+  BST<T> storage;
+
+public:
+  Set() : storage() {}
+};
